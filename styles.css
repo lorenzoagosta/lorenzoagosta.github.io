@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');body {
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+body {
   font-family: Parkinsans;
   background: white;
   color: #333333;
@@ -33,12 +34,6 @@
     box-sizing: border-box;
 }
 
-/* Stili generali per il body */
-body {
-    font-family: Arial, sans-serif;
-}
-
-/* Stile per l'header */
 header {
     display: flex;
     justify-content: space-between; /* Spaziatura tra logo e menu */
