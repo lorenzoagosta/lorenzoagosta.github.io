@@ -66,7 +66,6 @@ header {
     align-items: center;    /* Centra verticalmente gli elementi */
     justify-content: flex-start; /* Allinea gli elementi a sinistra */
     border: 1px solid #00BFFF; /* Aggiungi un bordo celeste attorno al contenitore */
-    border-radius: 10px;    /* Angoli arrotondati per il bordo */
     padding: 20px;          /* Padding interno per dare spazio attorno agli elementi */
     background-color: #f9f9f9; /* Colore di sfondo chiaro per il contenitore */
 }
@@ -93,4 +92,54 @@ header {
     color: #555;            /* Colore del testo */
 }
 
-@keyframes .
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+/* Contenitore per il textfield */
+.textfield-container {
+  flex: 1;  /* Occupa tutto lo spazio disponibile a sinistra */
+  margin-right: 20px; /* Distanza tra il textfield e l'immagine */
+ text-align: right;
+  
+}
+
+.textfield-container h1 {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.textfield-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.textfield-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Contenitore per l'immagine */
+.image-container {
+  flex: 0 0 300px; /* Imposta una larghezza fissa per l'immagine */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Angoli arrotondati per l'immagine */
+}
+
