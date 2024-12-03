@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');body {
+  font-family: Parkinsans;
+  background: white;
+  color: #333333;
+  
+}
+
+.background-container {
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/8147.jpg'); /* Imposta l'immagine di sfondo */
+    background-size: cover; /* Assicura che l'immagine copra tutto lo spazio disponibile */
+    background-position: center; /* Centra l'immagine */
+    width: 100%; /* Larghezza del div che prende tutta la larghezza della pagina */
+    height: 400px; /* Imposta l'altezza del div (puoi cambiarla a tuo piacimento) */
+    display: flex; /* Usa Flexbox per centrare il testo */
+    justify-content: center; /* Allinea il testo orizzontalmente al centro */
+    align-items: center; /* Allinea il testo verticalmente al centro */
+    color: white; /* Colore del testo sopra l'immagine */
+    text-align: center; /* Centra il testo */
+    position: relative;
+}
+
+.text-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Aggiunge uno sfondo semitrasparente per migliorare la leggibilità del testo */
+    padding: 20px; /* Aggiunge spazio attorno al testo */
+    border-radius: 10px; /* Angoli arrotondati per il div del testo */
+}
+
+
+/* Reset per margini e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stili generali per il body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Stile per l'header */
+header {
+    display: flex;
+    justify-content: space-between; /* Spaziatura tra logo e menu */
+    align-items: center;
+    padding: 10px;
+    background-color: #003366;
+}
+
+/* Stile per il logo */
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Stile per i link del menu */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Spaziatura tra i link */
+    font-size: 18px;
+}
+
+/* Hover sui link */
+.nav-links a:hover {
+    color: #D9D9D9; /* Cambia colore al passaggio del mouse */
+}
+
+#about {
+    display: flex;          /* Usa Flexbox per allineare gli elementi orizzontalmente */
+    align-items: center;    /* Centra verticalmente gli elementi */
+    justify-content: flex-start; /* Allinea gli elementi a sinistra */
+    border: 1px solid #00BFFF; /* Aggiungi un bordo celeste attorno al contenitore */
+    border-radius: 10px;    /* Angoli arrotondati per il bordo */
+    padding: 20px;          /* Padding interno per dare spazio attorno agli elementi */
+    background-color: #f9f9f9; /* Colore di sfondo chiaro per il contenitore */
+}
+
+#about img {
+    width: 250px;           /* Larghezza fissa per l'immagine */
+    height: auto;           /* Mantieni le proporzioni dell'immagine */
+    border-radius: 8px;     /* Arrotonda gli angoli dell'immagine */
+    margin-right: 20px;     /* Distanza tra l'immagine e il testo */
+}
+
+.text {
+    max-width: 500px;       /* Limita la larghezza del contenuto testuale */
+}
+
+.text h1 {
+    font-size: 24px;        /* Imposta la dimensione del titolo */
+    color: #333; 
+    margin-bottom: 10px;/* Colore del titolo */
+}
+
+.text p {
+    font-size: 16px;        /* Imposta la dimensione del paragrafo */
+    color: #555;            /* Colore del testo */
+}
